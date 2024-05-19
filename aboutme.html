@@ -18,7 +18,7 @@
         <div class="container">
            <header class="d-flex justify-content-center py-3">
              <ul class="nav nav-pills nav">
-               <li class="nav-item nav-home"><a href="#" class="nav-link">Home</a></li>
+               <li class="nav-item nav-home"><a href="portfolio-page.html" class="nav-link">Home</a></li>
                <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>     
                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">About</a></li>
              </ul>
@@ -26,27 +26,82 @@
          </div>
     </section>
 
-
+    <!-- main section -->
+    <main>
+      <section>
+          <div class="container my-5">
+           <div class="text-center my-5 py-5">
+             <h1>About Me</h1>
+           </div>
+            <div class="row">
+              <div class="col">
+                <img class="about-pic" src="./Assets/Images/Aboutme.jpg">
+              </div>
+              <div class="col">
+                <h2>Hi, I am Lashod Jones an inspiring Developer from Moncks Corner, SC </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed libero enim sed faucibus turpis in eu. Lectus vestibulum mattis ullamcorper velit. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Elit ullamcorper dignissim cras tincidunt. In est ante in nibh mauris cursus mattis molestie. Senectus et netus et malesuada fames ac turpis egestas maecenas. Vulputate enim nulla aliquet porttitor lacus luctus. Id donec ultrices tincidunt arcu non sodales neque. Mus mauris vitae ultricies leo integer. Congue quisque egestas diam in arcu cursus euismod quis. Adipiscing at in tellus integer feugiat scelerisque varius. Convallis aenean et tortor at risus. In nibh mauris cursus mattis molestie a iaculis. Accumsan tortor posuere ac ut consequat semper viverra. Dui id ornare arcu odio. Tellus id interdum velit laoreet id donec ultrices tincidunt. Ipsum suspendisse ultrices gravida dictum. Ac turpis egestas sed tempus urna. Vel pretium lectus quam id.</p>
+                <p>Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Urna neque viverra justo nec ultrices dui. Lectus mauris ultrices eros in cursus turpis massa. Vitae semper quis lectus nulla at volutpat diam. Maecenas pharetra convallis posuere morbi leo urna molestie at. Mollis nunc sed id semper risus in. Pharetra vel turpis nunc eget. Scelerisque fermentum dui faucibus in ornare quam. Libero id faucibus nisl tincidunt. Sagittis vitae et leo duis ut diam. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Vulputate ut pharetra sit amet aliquam id diam.</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center my-5">
+              <button class="btn btn-dark btn-lg text-white rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#emailModal" data-bs-whatever="lashodj">Contact Me</button>
+            </div>
+          </div>           
+      </section>
+<!-- modal section -->
+      <section>
+        <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ModalLabel">Email Me</h1>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <input type="text" class="form-control" id="recipient-name" value="lashodj@gmail.com" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
      <!-- Footer -->
-  <section class="footer fixed-bottom">
-    <div class="container-fluid footer-border">
-      <footer class="py-3 mt-3">
-        <ul class="nav justify-content-center mb-3 pb-3">
-          <li class="nav-item">
-          <a class="nav-link active" href="#Home">Home</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#Features">Features</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
+     <section class="footer">
+      <div class="container-fluid footer-border">
+        <footer class="py-3 mt-3">
+          <ul class="nav justify-content-center mb-3 pb-3">
+            <li class="nav-item">
+            <a class="nav-link active" href="#Home">Home</a>
           </li>
-        </ul>
-        <p class="text-center">© Lashod Jones Developer</p>
-      </footer>
-    </div>
-</section>
+            <li class="nav-item">
+            <a class="nav-link" href="#Features">Features</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+          </ul>
+          <p class="text-center">© Lashod Jones Developer</p>
+        </footer>
+      </div>
+    </section>
+
+   
+
+
+
 
 
 
