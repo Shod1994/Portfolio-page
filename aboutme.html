@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lashod Jones Portfolio</title>
+    <title>Lashod Jones</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -55,22 +55,25 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="ModalLabel">Email Me</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <form action="https://formspree.io/f/mdoqjqqq" method="POST">
                   <div class="mb-3">
                     <label for="email" class="col-form-label">Your Email:</label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
                   </div>
                   <div class="mb-3">
                     <label for="message-text" class="col-form-label">Message:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                    <textarea class="form-control" id="message-text" name="message"></textarea>
                   </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark">Send</button>
+                  </div>
+                 
                 </form>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Send</button>
+              <div class="modal-footer py-4">
               </div>
             </div>
           </div>
