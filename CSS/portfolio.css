@@ -68,6 +68,9 @@ color:black;
 
 .footer{
     background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    position: fixed; 
+    bottom: 0;
+    width: 100%
 }
 
 .about-pic{
@@ -82,4 +85,11 @@ border-radius: 10%
 
 .modal-footer{
     background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+.background-image {
+    min-height: 250px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
