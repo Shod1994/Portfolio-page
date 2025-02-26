@@ -68,7 +68,7 @@ color:black;
 
 .footer{
     background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
-    position: fixed; 
+    position: relative; 
     bottom: 0;
     width: 100%
 }
